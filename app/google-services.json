@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "826070316219",
+    "firebase_url": "https://sairamapp-85cfc.firebaseio.com",
+    "project_id": "sairamapp-85cfc",
+    "storage_bucket": "sairamapp-85cfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826070316219:android:8f20d8b307bf1a12",
+        "android_client_info": {
+          "package_name": "com.nagajothy.smazee.sairamapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826070316219-rbh1b7chs8bigfgh70do506fmj5qsmm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nagajothy.smazee.sairamapp",
+            "certificate_hash": "1E73779C47BA7E51FB569F4DF221DDE318EB7674"
+          }
+        },
+        {
+          "client_id": "826070316219-p68dedqflign7jtmu0j1unmmg2fsd7hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0t1kd7NDpC4XeHCRBzWSGAAe1kK7Ju98"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826070316219-p68dedqflign7jtmu0j1unmmg2fsd7hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

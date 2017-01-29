@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_yathrackone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#000000"
+
+
+    tools:context="com.nagajothy.smazee.sairamapp.Yathrackone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/tooolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:paddingTop="16dp">
+
+            <android.support.v7.widget.CardView
+                app:cardCornerRadius="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/baggageheader"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="05dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="15dp"
+                        android:text="Red Color Baggage "
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/statusinfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/baggageheader"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="35dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="05dp"
+                        android:text="Un Loaded from your FLIGHT "
+                        android:textColor="#0099d9"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/lineartracks"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/statusinfo"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/time"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#ffff00"
+                            android:gravity="center"
+                            android:paddingBottom="15dp"
+
+                            android:paddingTop="10dp"
+
+                            android:text="10:15 am "
+                            android:textColor="#ff0000"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:id="@+id/tasksatatus"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#00ff00"
+                            android:gravity="center"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="10dp"
+                            android:text="COMPLETED"
+
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/historytracks"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lineartracks"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+                            android:gravity="center"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="10dp"
+                            android:text="View the whole History"
+
+                            android:textColor="#0099d9"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/baggageheader1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="05dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="15dp"
+                        android:text="VIP Suitcase "
+                        android:textColor="#000"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/statusinfo1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/baggageheader1"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="35dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="05dp"
+                        android:text="On Flight  "
+                        android:textColor="#0099d9"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/lineartracks1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/statusinfo1"
+                        android:paddingLeft="25dp"
+                        android:paddingRight="15dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/time1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#ffff00"
+                            android:gravity="center"
+                            android:paddingBottom="15dp"
+
+                            android:paddingTop="10dp"
+
+                            android:text="2:00pm "
+                            android:textColor="#ff0000"
+                            android:textSize="18sp" />
+
+                        <TextView
+
+                            android:id="@+id/tasksatatus1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="#ff8800"
+                            android:gravity="center"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="10dp"
+                            android:text="PROCESS"
+
+                            android:textColor="#fff"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="15dp"
+                        android:id="@+id/historytracks1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lineartracks1"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+                            android:gravity="center"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="10dp"
+                            android:text="View the whole History"
+
+                            android:textColor="#0099d9"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.9"
+        >
+
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:background="#FBB13C"
+            android:orientation="vertical"
+            android:layout_height="75dp">
+
+            <TextView
+                android:textColor="#000"
+                android:textSize="24sp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="Alert Baggage Reached \n Delhi Airport"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/lineartracks2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:alpha="0.1"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#FBB13C"
+                android:orientation="vertical"
+                android:layout_height="75dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/help"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Help"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#FBB13C"
+                android:orientation="vertical"
+                android:layout_height="75dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/supervisior"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Call Centre"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#FBB13C"
+                android:orientation="vertical"
+                android:layout_height="75dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/notes"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Reminder"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="#FBB13C"
+                android:orientation="vertical"
+                android:layout_height="75dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/feedback"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Feedback"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
